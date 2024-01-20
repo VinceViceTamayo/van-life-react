@@ -1,7 +1,9 @@
 {
+  "homepage": "https://vincevicetamayo.github.io/vanlife-react",
   "name": "project",
   "dependencies": {
     "firebase": "^10.7.2",
+    "gh-pages": "^6.1.1",
     "miragejs": "0.1.46",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -13,6 +15,8 @@
     "vite": "latest"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
