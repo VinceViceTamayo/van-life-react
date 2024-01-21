@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   }
 }
